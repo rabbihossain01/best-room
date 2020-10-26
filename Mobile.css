@@ -1,0 +1,47 @@
+#navbar .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar ul {
+  display: flex;
+  align-items: center;
+  
+}
+
+#navbar ul li a {
+  padding: 0.75rem 0.7rem;
+}
+
+.logo {
+    margin-bottom: 2rem;
+}
+
+.showcase {
+    text-align: center;
+  }
+
+  .showcase  .title {
+    font-size: 1.5rem;
+    color: azure;
+    line-height: 90px;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin-bottom: 2rem;
+}
+
+.showcase  .paragraph {
+   padding-right: 0;
+ }
+
+ .showcase {
+  height: 50vh;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.showcase  .btn {
+  padding: 1rem 1rem;
+}
